@@ -73,6 +73,11 @@ function draw(){
   fill ("blue");
   text("Score: "+ score, 1000,50,);
 
+  textSize(20);
+  fill ("black");
+  text("Vibha Shivakumar", 90,50,);
+
+
   if(gameState === PLAY){
 
   score = score + Math.round(getFrameRate()/60); 
